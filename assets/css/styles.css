@@ -581,7 +581,7 @@ footer p a:hover {
     }
 
     .recipe-grid {
-        grid-template-columns: 1fr; /* Stack recipes in 1 column */
+        grid-template-columns: 1fr;
     }
 
     .recipe-item {
