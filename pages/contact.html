@@ -24,34 +24,34 @@
             </nav>
         </div>
     </header>
-    <section >
+    <section class="cntc" >
         
         <form class="contacttt" id="form">
             <h2>Contact Us</h2>
-        <p>n If you have any questions or feedback, feel free to reach out to us!</p>
-            <label for="name" class="contactt">Name:</label>
-            <input type="text" id="name" name="namee" placeholder= First_Name required>
-            <input type="text" id="name" name="namee" placeholder= Middle_Name required>
-            <input type="text" id="name" name="namee" placeholder= Last_Name required><br><br>
+            <p>If you have any questions or feedback, feel free to reach out to us...!!</p>
+           
+      <label for="firstName">Name:</label>
+      <div class="name-group">
+        <input type="text" id="firstName" name="first_name" placeholder="First Name" required>
+        <input type="text" id="middleName" name="middle_name" placeholder="Middle Name" required>
+        <input type="text" id="lastName" name="last_name" placeholder="Last Name" required>
+      </div>
 
-             <label for="phone" class="contactt">Phone no. :<label>
-            <input type="tel" id="phone" name="phone"  placeholder="+91 98******96"><br><br>
+      <label for="phone">Phone No.:</label>
+      <input type="tel" id="phone" name="phone" placeholder="+91 98******96" required>
 
-            <label for="email" class="contactt">Email:</label>
-            <input type="email" id="email" name="email" placeholder="abc20@testmail.com" required><br><br>
-            <label for="food">Menu :</label><br>
-            <label for="checkbox" class="contactt">Burger</label>
-            <input type="checkbox" id="checkbox" name="checkbox" ><br>
-            <label for="checkbox" class="contactt">French Frais</label>
-            <input type="checkbox" id="checkbox" name="checkbox" ><br>
-            <label for="checkbox" class="contactt">Hot Chilli Potato</label>
-            <input type="checkbox" id="checkbox" name="checkbox" ><br>
-            <label for="checkbox" class="contactt">PaniPuri</label>
-            <input type="checkbox" id="checkbox" name="checkbox" ><br>
-            <label for="checkbox" class="contactt">Drinks</label>
-            <input type="checkbox" id="checkbox" name="checkbox" ><br>
-            <label for="checkbox" class="contactt">Combo</label>
-            <input type="checkbox" id="checkbox" name="checkbox" ><br> 
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="abc20@testmail.com" required>
+
+      <label>Menu:</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="menu[]" value="Burger">Burger</label>
+        <label><input type="checkbox" name="menu[]" value="French Fries">French Fries</label>
+        <label><input type="checkbox" name="menu[]" value="Hot Chilli Potato">Hot Chilli Potato</label>
+        <label><input type="checkbox" name="menu[]" value="PaniPuri">PaniPuri</label>
+        <label><input type="checkbox" name="menu[]" value="Drinks">Drinks</label>
+        <label><input type="checkbox" name="menu[]" value="Combo">Combo</label>
+        
 
             <label for="Address" class="contactt">Your Address :</label>
             <textarea id="message" name="message" required></textarea><br> <br>
@@ -63,12 +63,12 @@
 
            <button>send massage</button>
         </form>
-        <div>
+        <div class="myadd">
             <h3>Our Adress:</h3>
             <h4>Fine Food Delights,,</h4>Jalna Road,<br>Shivneri Nagar,<br>Bhokardan, Jalna-431114
         </div>
         <div class="btm">
-            <a href="../index.html" class="back">Back</a>
+            <a href="../index.html" class="back"><i class="fa-solid fa-angle-up " style="color: #554780;"></i></a>
         </div>
     </section>
    
