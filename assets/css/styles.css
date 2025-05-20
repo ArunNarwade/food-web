@@ -443,18 +443,45 @@ footer i:hover {
     padding: 8px 16px;
   }
 
-  /* Footer */
-  footer {
-    padding: 20px 10px;
-  }
+    .recipe-grid {
+        grid-template-columns: 1fr; /* Stack recipes in 1 column */
+    }
 
-  footer .container {
-    padding: 0 10px;
-  }
+    .recipe-item {
+        width: 100%;
+        padding: 15px;
+    }
 
-  footer i {
-    font-size: 18px;
-  }
+    .recipe-item button {
+        width: 100%;
+    }
+
+    .about p {
+        width: 80%;
+    }
+
+    .contactt {
+        font-size: 16px;
+    }
+
+    .footer p a {
+        font-size: 14px;
+    }
+}
+
+/* Tablets (Portrait) */
+@media (max-width: 1024px) {
+    .recipe-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+
+    .hero-text h2 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
 
   /* Back to top button */
   .btm {
@@ -462,4 +489,7 @@ footer i:hover {
     right: 15px;
     bottom: 20px;
   }
+}
+
+    
 }
