@@ -424,7 +424,7 @@ footer i:hover {
   nav ul {
    flex-direction:row;
     width: 100%;
-    gap: 50px;
+    gap: 40px;
     padding-left: 0;
   }
 
