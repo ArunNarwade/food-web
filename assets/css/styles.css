@@ -487,6 +487,10 @@ footer i:hover {
      margin: auto;
      padding: 15px;
   }
+  .recipe-itemm img{
+    width: 300px;
+    height: 300px;
+  }
 
   .recipe-item h3 {
     font-size: 25px;
